@@ -22,7 +22,7 @@
         <fields name="params">
 
             <fieldset name="basic">
-                <field name="slider_class" type="text" label="MOD_UK_SLIDESHOW_CLASS" class="input-xlasrge" />
+                <field name="slideshow_class" type="text" label="MOD_UK_SLIDESHOW_CLASS" class="input-xlasrge" />
                 <field name="item_class" type="text" label="MOD_UK_SLIDESHOW_ITEM_CLASS" class="input-xlasrge" />
                 <field name="dotnav" type="radio" label="MOD_UK_SLIDESHOW_DOTNAV" default="1" class="btn-group">
                     <option value="1">JYES</option>
