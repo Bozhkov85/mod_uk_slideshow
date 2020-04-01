@@ -12,10 +12,10 @@
         <?php
         foreach ($items as $item)
         {
-            $item_slide_class = trim($item->class) ? ' ' . trim($item->class) : '';
-            $item_class = $item_class || $item_slide_class ? ' class="' . $item_class . $item_slide_class . '"' : '';
+            $item_slide_class = $item->class;
+			trim($item->class) ? ' ' . trim($item->class) : '';
         ?>
-        <li<?php echo $item_class; ?>>
+        <li class="<?php echo $item_class?> <?php echo $item_slide_class; ?>">
             
             <?php if ($item->img_bg) { ?>
             <img src="<?php echo $item->img_bg; ?>" alt="<?php echo $item->title; ?>" data-uk-cover>
